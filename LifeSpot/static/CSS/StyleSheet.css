@@ -7,18 +7,8 @@ header, footer, body, .video-container {
     background-color: rgb(255, 253, 208);
 }
 
-search-form:hover {
+.search-form input:hover {
     background-color: lightyellow;
-    inline-size: 20%;
-}
-
-form:hover 
-{
-    background-color:antiquewhite;
-}
-
-form button {
-    inline-size: 7%;
 }
 
 .navbar {
