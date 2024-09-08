@@ -37,6 +37,7 @@ namespace LifeSpot
                         .Replace("<!--FOOTER-->", footerHtml);
 
                     await context.Response.WriteAsync(html.ToString());
+
                 });
 
                 endpoints.MapGet("/testing", async context =>
